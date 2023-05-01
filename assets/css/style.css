@@ -1,0 +1,422 @@
+/* --------------------------------
+      Common Section Css Start
+----------------------------------- */
+:root {
+  --gold-color: linear-gradient(180deg, #FFD700 0%, #FDBB12 100%);
+  --blue-color: linear-gradient(180deg, #0707B4 0%, #020242 100%);
+  --primary-text-color: rgba(50, 71, 92, 0.68);
+  --secondary-text-color: #32475C;
+  --green: #44A112;
+  --light-green: rgba(114, 225, 40, 0.2);
+  --light-gold: linear-gradient(180deg, rgba(255, 215, 0, 0.3) 0%, rgba(253, 187, 18, 0.3) 100%);
+  --gray: rgba(50, 71, 92, 0.12);
+  --common-black: #000000;
+  --common-white: #ffffff;
+  --primary-font: 'Lato', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+span,
+small {
+  padding: 0;
+  margin: 0;
+  font-family: var(--primary-font);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+body {
+  font-family: var(--primary-font);
+  scroll-behavior: smooth;
+  background: #F6F6F6;
+}
+
+*/ .dropdown-menu {
+  position: static !important;
+}
+
+/* --------------------------------
+      Common Section Css End
+----------------------------------- */
+
+
+
+/* --------------------------------
+      BackToTop Section Css Start
+----------------------------------- */
+.backtotop {
+  position: fixed;
+  bottom: 40px;
+  right: 35px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 55px;
+  background: var(--gray);
+  text-align: center;
+  z-index: 99999999999999999999999999;
+}
+
+.fa-magnifying-glass {
+  cursor: pointer;
+}
+
+/* --------------------------------
+      BackToTop Section Css End
+----------------------------------- */
+
+
+
+
+
+
+/* --------------------------------
+      Header Section Css Start
+----------------------------------- */
+
+
+/* Aside Section Css Start */
+.layout_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+#sidebar {
+  position: fixed;
+  width: 282px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #ffffff;
+  padding: 12px;
+  box-shadow: 2px 2px 5px #D9D9D9;
+}
+
+#sidebar #nav {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 160px);
+}
+
+#sidebar .profile img {
+  padding-bottom: 25px;
+}
+
+#sidebar .nav_category_title h6 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.4px;
+  color: rgba(50, 71, 92, 0.6);
+  padding-bottom: 22px;
+}
+
+#sidebar ul li.nav-item.has_submenu>a {
+  position: relative;
+}
+
+#sidebar ul li.nav-item.has_submenu>a::after {
+  content: '\f078';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  position: absolute;
+  right: 26px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#sidebar .has_submenu a {
+  padding-bottom: 11px;
+  padding: 6px 0 6px 22px;
+}
+
+#sidebar .has_submenu a span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  background: linear-gradient(180deg, #0707B4 0%, #020242 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#sidebar .has_submenu>a:hover,
+#sidebar ul li a.active {
+  background: linear-gradient(180deg, rgba(255, 215, 0, 0.4) 0%, rgba(253, 187, 18, 0.4) 100%);
+  border-radius: 6px;
+}
+
+
+#sidebar .inner_col {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(50, 71, 92, 0.68);
+  position: relative;
+}
+
+#sidebar .inner_col::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  top: 50%;
+  left: 0;
+  background-color: var(--primary-text-color);
+}
+
+#sidebar .inner_col:hover::before {
+  background-color: #0707B4;
+}
+
+#sidebar .collapse li:hover .inner_col {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  background: linear-gradient(180deg, #0707B4 0%, #020242 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#main_page {
+  width: calc(100% - 282px);
+  margin-left: auto;
+  padding: 18px 26px;
+  min-height: 100vh;
+}
+
+/* Aside Section Css End */
+
+/* --------------------------------
+      Header Section Css End
+----------------------------------- */
+
+
+
+
+
+
+
+
+/*==================================================   Topbar Section CSS   ============================================ */
+#topbar {
+  position: fixed;
+  width: calc(100% - 334px);
+  right: 26px;
+  top: 18px;
+  background: #fff;
+  box-shadow: 2px 2px 15px #efefef;
+}
+
+#topbar .admin_img {
+  padding-top: 5px;
+}
+
+#topbar .dropdown-menu li i,
+#topbar .dropdown-menu li a {
+  color: var(--primary-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================================================   Statistics Section CSS   ============================================ */
+#statistics {
+  margin-top: 110px;
+}
+
+#statistics .inner-stat {
+  background: var(--common-white);
+  padding: 30px;
+  margin: 0 -21px;
+  box-shadow: 2px 2px 10px #D9D9D9;
+  border-radius: 8px;
+}
+
+#statistics .inner-stat h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(50, 71, 92, 0.6);
+}
+
+#statistics .inner-stat p {
+  padding-top: 11px;
+}
+
+#statistics .inner-stat p span {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+  color: rgba(50, 71, 92, 0.87);
+}
+
+#statistics .inner-stat p span.discount {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.15px;
+  color: #44A112;
+}
+
+
+/*==================================================   Filter Section CSS   ============================================ */
+#filter .main_filter {
+  padding: 22px 30px;
+  margin-top: 41px;
+  background: var(--common-white);
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px #D9D9D9;
+}
+
+#filter .main_filter h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+  color: rgba(50, 71, 92, 0.87);
+  padding-bottom: 10px;
+}
+
+#filter .main_filter .ddown {
+  padding: 15.5px 19px;
+}
+
+
+#filter .main_filter .search_filter {
+  border: 1px solid rgba(50, 71, 92, 0.54);
+  border-radius: 8px;
+  background: var(--common-white);
+  padding: 14px 44px;
+}
+
+#filter .main_filter .search_filter input:focus {
+  border: 1px solid transparent;
+}
+
+#filter .main_filter .search_filter p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+  color: #000000;
+}
+
+#filter .main_filter .add_user_btn {
+  transition: 0.4s;
+}
+
+#filter .main_filter .add_user_btn:hover {
+  background: linear-gradient(180deg, #FFD700 0%, #FDBB12 100%);
+  box-shadow: 0px 2px 9px rgba(50, 71, 92, 0.06), 0px 4px 9px 1px rgba(50, 71, 92, 0.04), 0px 2px 6px 4px rgba(50, 71, 92, 0.02);
+}
+
+
+#filter form{
+  padding-top: 48px ;
+}
+
+#filter .main_filter form table tr td,
+#filter .main_filter form table tr td a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 157%;
+  letter-spacing: 0.1px;
+  color: var(--secondary-text-color);
+}
+
+#filter .main_filter form table tr td {
+  padding: 19px 0;
+}
+
+#filter .main_filter form table tr td p {
+  font-family: 'Lato';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 157%;
+  letter-spacing: 0.1px;
+  color: rgba(50, 71, 92, 0.87);
+}
+
+#filter .main_filter form table tr td.basic a {
+  background: rgba(114, 225, 40, 0.2);
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+
+#filter .main_filter form table tr td.premium a {
+  background: linear-gradient(180deg, rgba(255, 215, 0, 0.3) 0%, rgba(253, 187, 18, 0.3) 100%);
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+#filter .main_filter form table tr td.blocked a {
+  background: rgba(50, 71, 92, 0.12);
+  border-radius: 8px;
+  color: var(--common-black);
+  padding: 12px 17px;
+}
+
+#filter .main_filter .pagination li.active>.page-link {
+  background: linear-gradient(180deg, #FFD700 0%, #FDBB12 100%);
+  border: 1px solid #F5F5F9;
+  border-radius: 5px;
+}
+
+#filter .main_filter .pagination li .page-link{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: rgba(50, 71, 92, 0.54);
+  cursor: pointer;
+}

@@ -1,0 +1,1469 @@
+/* XXL devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1400px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* 
+==========================================================  Shop Page Responsive  ==============================================================    
+*/
+
+    #shop_page_product .shop_page_product .shop_page_product_info h6 {
+        font-size: 17px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /*
+===========================================================  Home Page Responsive ==============================================================
+ */
+
+    #banner .banner_slider_item {
+        height: 663px;
+    }
+
+    #banner .banner_slider_item h1 {
+        font-size: 52px;
+    }
+
+    #nav .container a img.img-fluid {
+        max-width: 64%;
+    }
+
+    #product_video .container .content h2 {
+        font-size: 32px;
+    }
+
+    #footer .head .social_icon i {
+        height: 34px;
+        width: 34px;
+        line-height: 34px;
+        font-size: 17px;
+    }
+
+    #promotion .promotion_content .img {
+        width: 62px;
+        height: 62px;
+        line-height: 65px;
+    }
+
+    #promotion .promotion_content {
+        padding: 20px 20px;
+    }
+
+    #promotion .promotion_content .title h5 {
+        font-size: 18px;
+    }
+
+    #promotion .promotion_content .title p span {
+        font-size: 12px;
+    }
+
+
+    #footer .footer_main .footer_account .content .date p,
+    #footer .footer_main .footer_account .content .time p {
+        font-size: 13px;
+    }
+
+    #footer .footer_main .footer_account .content h2 {
+        font-size: 23px;
+    }
+
+    #footer .footer_main .footer_account .content a {
+        font-size: 15px;
+    }
+
+    #footer .footer_main .footer_account .contact_us .contact_item a {
+        font-size: 13px;
+    }
+
+    #footer .footer_main .footer_account .contact_us h2 {
+        font-size: 23px;
+    }
+
+    #footer .footer_main .footer_account .contact_us {
+        transform: translateX(-30px);
+    }
+
+    #footer .footer_main .footer_account .news .input_section .input-group button,
+    #footer .footer_main .footer_account .news .input_section .input-group input::placeholder {
+        font-size: 12px;
+    }
+
+    #footer .footer_main .footer_account .news .input_section input,
+    #footer .footer_main .footer_account .news .input_section button {
+        padding: 14px;
+    }
+
+
+
+    /*
+===========================================================  About Page Responsive ==============================================================
+ */
+
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_info h4 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        color: var(--primary-1st-Color);
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_img {
+        width: 85px;
+        height: 85px;
+        line-height: 85px;
+        border-radius: 50%;
+        background: rgba(255, 111, 97, 10%);
+        margin: 0 auto 25px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_img img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #about_story .story_intro .story_info h3 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    #about_story .story_intro .story_info p {
+        font-size: 14px;
+    }
+
+    #about_promotion .about_promotion_img img {
+        width: 50px;
+    }
+
+    #about_promotion .about_promotion_item .about_promotion_info h5 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #about_promotion .about_promotion_item .about_promotion_info p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    #about_instagram h3 {
+        font-size: 33px;
+        line-height: 45px;
+    }
+
+    #about_instagram .about_instagram_img .overlay {
+        right: 34px;
+    }
+
+    /* 
+==========================================================  Shop Page Responsive  ==============================================================    
+*/
+
+    #shop_page_product .shop_page_product .shop_page_product_info h6 {
+        font-size: 17px;
+    }
+
+    #sub_banner .container div h2 {
+        font-size: 36px;
+    }
+
+    #shop_page_product .shop_page_product .shop_page_product_info h6 {
+        font-size: 14px;
+    }
+
+    #shop_page_product .shop_page_product .floating_tag p {
+        font-size: 13px;
+        padding: 0px 12px;
+    }
+
+    #shop_page_product .shop_page_product .product_action_btn ul li a {
+        width: 27px;
+        height: 27px;
+        line-height: 27px;
+        font-size: 10px;
+    }
+
+    /* 
+=========================================================== Blog Page Responsive ====================================================================    
+*/
+    #slidebar a {
+        font-size: 13px;
+    }
+
+    #slidebar .text h6 {
+        font-size: 12px;
+    }
+
+    #slidebar .text p {
+        font-size: 11px;
+    }
+
+    #slidebar .categories .p4 {
+        font-size: 12px;
+    }
+
+    #slidebar .search {
+        font-size: 12px;
+        padding: 7px 26px;
+    }
+
+    #blog_video .blogs h6 {
+        font-size: 14px;
+    }
+
+    #blog_video .blogs h3 {
+        font-size: 23px;
+    }
+
+    #blog_video .blogs p {
+        font-size: 13px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    /*
+===========================================================  Home Page Responsive ==============================================================
+ */
+
+    #banner .banner_slider_item {
+        height: 600px;
+    }
+
+    #banner .banner_slider_item h1 {
+        font-size: 45px;
+        padding: 17px 0px;
+    }
+
+    #banner .banner_slider_item a {
+        font-size: 16px;
+        padding: 14px 20px;
+    }
+
+    #nav .container a img.img-fluid {
+        max-width: 64%;
+    }
+
+    #offer .offer_bg h3 {
+        font-size: 29px;
+        line-height: 39px;
+        padding-bottom: 34px;
+    }
+
+    #offer button {
+        width: 153px;
+        height: 46px;
+    }
+
+    #offer button a {
+        font-size: 16px;
+    }
+
+    #product_video {
+        height: 400px;
+    }
+
+    #product_video .container .content h2 {
+        font-size: 25px;
+    }
+
+    #product_video .container .content {
+        padding: 33px 33px 0px 0;
+    }
+
+    #promotion .promotion_content {
+        padding: 20px 20px;
+    }
+
+    #promotion .promotion_content .title h5 {
+        font-size: 12px;
+    }
+
+    #promotion .promotion_content .title p {
+        font-size: 11px;
+    }
+
+    #promotion .promotion_content .title p span {
+        font-size: 11px;
+    }
+
+    #promotion .promotion_content .img {
+        width: 47px;
+        height: 47px;
+        line-height: 49px;
+    }
+
+    #promotion .promotion_content .img img {
+        width: 29px;
+    }
+
+    #eoffer .offer_intro .offer_info h3 {
+        font-size: 24px;
+        padding-bottom: 0px;
+    }
+
+    #footer .head .social_icon i {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    #footer .head {
+        padding: 115px 0px 45px 0;
+    }
+
+    #footer .footer_img img {
+        width: 100px;
+    }
+
+    #footer .footer_main .footer_account .content .date p,
+    #footer .footer_main .footer_account .content .time p {
+        font-size: 13px;
+    }
+
+    #footer .footer_main .footer_account .content h2 {
+        font-size: 23px;
+    }
+
+    #footer .footer_main .footer_account .content a {
+        font-size: 15px;
+    }
+
+    #footer .footer_main .footer_account .contact_us .contact_item a {
+        font-size: 13px;
+    }
+
+    #footer .footer_main .footer_account .contact_us h2 {
+        font-size: 23px;
+    }
+
+    #footer .footer_main .footer_account .news .input_section .input-group button,
+    #footer .footer_main .footer_account .news .input_section .input-group input::placeholder {
+        font-size: 12px;
+    }
+
+    #footer .footer_main .footer_account .news .input_section input,
+    #footer .footer_main .footer_account .news .input_section button {
+        padding: 14px;
+    }
+
+
+
+    /*
+===========================================================  About Page Responsive ==============================================================
+ */
+
+    #about_feature .about_info .about_intro h3 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+
+    #about_feature .about_info a {
+        padding: 9px 23px;
+        font-size: 16px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_info h4 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        color: var(--primary-1st-Color);
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_img {
+        width: 85px;
+        height: 85px;
+        line-height: 85px;
+        border-radius: 50%;
+        background: rgba(255, 111, 97, 10%);
+        margin: 0 auto 25px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_img img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #about_story .story_intro .story_info h3 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    #about_story .story_intro .story_info p {
+        font-size: 14px;
+    }
+
+    #about_promotion .about_promotion_img img {
+        width: 50px;
+    }
+
+    #about_promotion .about_promotion_item .about_promotion_info h5 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #about_promotion .about_promotion_item .about_promotion_info p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    #about_instagram h3 {
+        font-size: 33px;
+        line-height: 45px;
+    }
+
+    #about_instagram .about_instagram_img .overlay {
+        right: 34px;
+    }
+
+    #about_story .story_intro .story_info p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: var(--Paragraph-Color);
+        padding-bottom: 20px;
+    }
+
+    #leadership h2 {
+        font-size: 30px;
+    }
+
+    #about_page_people_intro .about_page_people_intro_img1,
+    #about_page_people_intro .about_page_people_intro_img2 {
+        transform: scale(.8);
+    }
+
+    #about_instagram h3 {
+        font-size: 29px;
+    }
+
+    .floating_img {
+        transform: scale(.8);
+    }
+
+    /* 
+==========================================================  Shop Page Responsive  ==============================================================    
+*/
+
+    #shop_page_product .shop_page_product .shop_page_product_info h6 {
+        font-size: 17px;
+    }
+
+    #sub_banner .container div h2 {
+        font-size: 36px;
+    }
+
+    #shop_page_product .shop_page_product .shop_page_product_info h6 {
+        font-size: 14px;
+    }
+
+    #shop_page_product .shop_page_product .floating_tag p {
+        font-size: 13px;
+        padding: 0px 12px;
+    }
+
+    #shop_page_product .shop_page_product .product_action_btn ul li a {
+        width: 27px;
+        height: 27px;
+        line-height: 27px;
+        font-size: 10px;
+    }
+
+    /* 
+=========================================================== Blog Page Responsive ====================================================================    
+*/
+    #sub_banner {
+        height: 350px;
+    }
+
+    #slidebar a {
+        font-size: 13px;
+    }
+
+    #slidebar .text h6 {
+        font-size: 12px;
+    }
+
+    #slidebar .text p {
+        font-size: 11px;
+    }
+
+    #slidebar .categories .p4 {
+        font-size: 12px;
+    }
+
+    #slidebar .search {
+        font-size: 12px;
+        padding: 7px 26px;
+    }
+
+    #blog_video .blogs h6 {
+        font-size: 12px;
+    }
+
+    #blog_video .blogs h3 {
+        font-size: 20px;
+    }
+
+    #blog_video .blogs p {
+        font-size: 11px;
+        line-height: 23px;
+    }
+
+    #slidebar .categories .p4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    #slidebar .post .posts .row {
+        display: block;
+    }
+
+    #slidebar .post .posts .row .text {
+        margin-bottom: 35px;
+        padding-top: 0px;
+    }
+
+    #blog_video .blogs button {
+        width: 73px;
+        height: 73px;
+        line-height: 73px;
+        font-size: 19px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+    /*
+===========================================================  Home Page Responsive ==============================================================
+ */
+
+
+    #banner .banner_slider_item {
+        height: 600px;
+    }
+
+    #banner .banner_slider_item h1 {
+        font-size: 45px;
+        padding: 17px 0px;
+    }
+
+    #banner .banner_slider_item a {
+        font-size: 16px;
+        padding: 14px 20px;
+    }
+
+    #nav .container a img.img-fluid {
+        max-width: 64%;
+    }
+
+    #offer .offer_bg h3 {
+        font-size: 29px;
+        line-height: 39px;
+        padding-bottom: 34px;
+    }
+
+    #offer button {
+        width: 153px;
+        height: 46px;
+    }
+
+    #offer button a {
+        font-size: 16px;
+    }
+
+    #product_video {
+        height: 400px;
+    }
+
+    #product_video .container .content {
+        padding: 30px 30px 0px 0;
+    }
+
+    #product_video .container .content h4 {
+        font-size: 14px;
+    }
+
+    #product_video .container .content h2 {
+        font-size: 20px;
+    }
+
+    #product_video .container .content a {
+        font-size: 11px;
+    }
+
+    #promotion .promotion_content {
+        padding: 20px 20px;
+    }
+
+    #promotion .promotion_content .title h5 {
+        font-size: 12px;
+    }
+
+    #promotion .promotion_content .title p {
+        font-size: 11px;
+    }
+
+    #promotion .promotion_content .title p span {
+        font-size: 11px;
+    }
+
+    #promotion .promotion_content .img {
+        width: 47px;
+        height: 47px;
+        line-height: 49px;
+    }
+
+    #promotion .promotion_content .img img {
+        width: 29px;
+    }
+
+    #eoffer .offer_intro .offer_info h3 {
+        font-size: 24px;
+        padding-bottom: 0px;
+    }
+
+    #promotion .promotion_content {
+        display: inline-block !important;
+    }
+
+    #promotion .promotion_content .img {
+        margin-bottom: 10px;
+    }
+
+
+
+    #footer .head .social_icon i {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    #footer .head {
+        padding: 115px 0px 45px 0;
+    }
+
+    #footer .footer_img img {
+        width: 100px;
+    }
+
+    #footer .footer_main .footer_account .content .date p,
+    #footer .footer_main .footer_account .content .time p {
+        font-size: 13px;
+    }
+
+    #footer .footer_main .footer_account .content h2 {
+        font-size: 23px;
+    }
+
+    #footer .footer_main .footer_account .content a {
+        font-size: 15px;
+    }
+
+    #footer .footer_main .footer_account .contact_us .contact_item a {
+        font-size: 13px;
+    }
+
+    #footer .footer_main .footer_account .contact_us h2 {
+        font-size: 23px;
+    }
+
+    #footer .footer_main .footer_account .news .input_section .input-group button,
+    #footer .footer_main .footer_account .news .input_section .input-group input::placeholder {
+        font-size: 12px;
+    }
+
+    #footer .footer_main .footer_account .news .input_section input,
+    #footer .footer_main .footer_account .news .input_section button {
+        padding: 14px;
+    }
+
+    /*
+===========================================================  About Page Responsive ==============================================================
+ */
+    #about_feature .about_info .about_intro h3 {
+        font-size: 25px;
+    }
+
+    #about_feature .about_info .about_intro p {
+        font-size: 13px;
+    }
+
+    #about_feature .about_info ul li P {
+        font-size: 11px;
+    }
+
+    #about_feature .about_info ul li span i {
+        font-size: 16px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_info h4 {
+        font-size: 22px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_info p {
+        font-size: 14px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_img {
+        width: 73px;
+        height: 73px;
+        line-height: 73px;
+    }
+
+    #about_story {
+        overflow: scroll;
+    }
+
+    #about_feature .about_img .about_shop_img_2 {
+        top: 184px;
+        right: 18px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_info h4 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        color: var(--primary-1st-Color);
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_img {
+        width: 85px;
+        height: 85px;
+        line-height: 85px;
+        border-radius: 50%;
+        background: rgba(255, 111, 97, 10%);
+        margin: 0 auto 25px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_img img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #about_story .story_intro .story_info h3 {
+        font-size: 23px;
+        line-height: 39px;
+    }
+
+    #about_story .story_intro .story_info p {
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .about_page_people_intro_img1,
+    .about_page_people_intro_img2 {
+        transform: scale(.75);
+    }
+
+    #leadership h2 {
+        font-size: 25px;
+    }
+
+    .leadership_action_btn ul li {
+        transform: scale(.8);
+    }
+
+    #leadership .leadership_product .leadership_action_btn ul li {
+        margin-bottom: 0px;
+    }
+
+    #leadership .leadership_product .leadership_action_btn {
+        right: 10px;
+        top: 25px;
+    }
+
+    #about_promotion .about_promotion_img img {
+        width: 50px;
+    }
+
+    #about_promotion .about_promotion_item .about_promotion_info h5 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #about_promotion .about_promotion_item .about_promotion_info p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    #about_instagram h3 {
+        font-size: 33px;
+        line-height: 45px;
+    }
+
+    #about_instagram .about_instagram_img .overlay {
+        right: 34px;
+    }
+
+    /* 
+==========================================================  Shop Page Responsive  ==============================================================    
+*/
+
+    #shop_page_product .shop_page_product .shop_page_product_info h6 {
+        font-size: 17px;
+    }
+
+    #sub_banner .container div h2 {
+        font-size: 36px;
+    }
+
+    #shop_page_product .shop_page_product .shop_page_product_info h6 {
+        font-size: 14px;
+    }
+
+    #shop_page_product .shop_page_product .floating_tag p {
+        font-size: 13px;
+        padding: 0px 12px;
+    }
+
+    #shop_page_product .shop_page_product .product_action_btn ul li a {
+        width: 27px;
+        height: 27px;
+        line-height: 27px;
+        font-size: 10px;
+    }
+
+    /* 
+=========================================================== Blog Page Responsive ====================================================================    
+*/
+    #sub_banner .container div h2 {
+        font-size: 28px;
+    }
+
+    #sub_banner {
+        height: 350px;
+    }
+
+    #slidebar a {
+        font-size: 13px;
+    }
+
+    #slidebar .text h6 {
+        font-size: 12px;
+        padding-right: 40px;
+    }
+
+    #slidebar .text p {
+        font-size: 11px;
+    }
+
+    #slidebar .categories .p4 {
+        font-size: 12px;
+    }
+
+    #blog_video .blogs .blog_button {
+        font-size: 12px;
+    }
+
+    #slidebar .search {
+        font-size: 12px;
+        padding: 7px 26px;
+    }
+
+    #blog_video .blogs h6 {
+        font-size: 12px;
+    }
+
+    #blog_video .blogs h3 {
+        font-size: 16px;
+    }
+
+    #blog_video .blogs {
+        border-radius: 10px;
+        box-shadow: 0px 5px 30px rgba(17, 22, 30, 0.08);
+        text-align: left;
+        margin-left: 0px;
+        margin-right: 5px;
+        margin-top: 50px;
+        padding: 30px;
+    }
+
+    #slidebar h5 {
+        font-size: 16px;
+    }
+
+    #blog_video .blogs p {
+        font-size: 11px;
+        line-height: 23px;
+    }
+
+    #slidebar .categories .p4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    #slidebar .post .posts .row {
+        display: block;
+    }
+
+    #slidebar .post .posts .row .text {
+        margin-bottom: 35px;
+        padding-top: 0px;
+    }
+
+    #blog_video .blogs button {
+        width: 73px;
+        height: 73px;
+        line-height: 73px;
+        font-size: 19px;
+    }
+
+    #slidebar a {
+        font-size: 9px;
+    }
+
+    @keyframes blog_pluse {
+        0% {
+            width: 120px;
+            height: 120px;
+            opacity: 0;
+        }
+
+        100% {
+            width: 70px;
+            height: 70px;
+            opacity: 1;
+        }
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 575px) {
+
+    /*
+===========================================================  Home Page Responsive ==============================================================
+ */
+
+    #nav {
+        position: static;
+    }
+
+    #banner .banner_slider_item {
+        height: 600px;
+    }
+
+    #banner .banner_slider_item h1 {
+        font-size: 28px;
+        padding: 16px 0px;
+    }
+
+    #banner .banner_slider_item h4 {
+        font-size: 16px;
+    }
+
+    #banner .banner_slider_item p {
+        font-size: 13px;
+        padding-bottom: 36px;
+    }
+
+    #banner .banner_slider_item a {
+        font-size: 12px;
+        padding: 14px 20px;
+    }
+
+    #featured_product .f_product {
+        margin-bottom: 10px;
+    }
+
+    #featured_product .f_product .overlay .banner_overlay_info h2 {
+        font-size: 24px;
+    }
+
+    #featured_product .f_product .overlay .banner_overlay_info a {
+        font-size: 13px;
+    }
+
+
+    #nav .container a img.img-fluid {
+        max-width: 64%;
+    }
+
+    #offer .offer_bg h3 {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 29px;
+    }
+
+    #offer .offer_bg p {
+        font-size: 10px;
+        line-height: 23px;
+    }
+
+    #offer button a {
+        font-size: 11px;
+    }
+
+    #offer button {
+        width: 116px;
+        height: 38px;
+    }
+
+    #offer .offer_bg {
+        height: 393px;
+    }
+
+    #product_video {
+        height: 400px;
+    }
+
+    #product_video .container .content {
+        padding: 30px 30px 0px 0;
+    }
+
+    #product_video .container .content h4 {
+        font-size: 14px;
+    }
+
+    #product_video .container .content h2 {
+        font-size: 20px;
+    }
+
+    #product_video .container .content a {
+        font-size: 11px;
+    }
+
+    #promotion .promotion_content {
+        padding: 20px 20px;
+    }
+
+    #promotion .promotion_content .title h5 {
+        font-size: 12px;
+    }
+
+    #promotion .promotion_content .title p {
+        font-size: 11px;
+    }
+
+    #promotion .promotion_content .title p span {
+        font-size: 11px;
+    }
+
+    #promotion .promotion_content .img {
+        width: 47px;
+        height: 47px;
+        line-height: 49px;
+    }
+
+    #promotion .promotion_content .img img {
+        width: 29px;
+    }
+
+    #eoffer .offer_intro .offer_info h3 {
+        font-size: 24px;
+        padding-bottom: 0px;
+    }
+
+    #promotion .promotion_content {
+        display: inline-block !important;
+    }
+
+    #promotion .promotion_content .img {
+        margin-bottom: 10px;
+    }
+
+
+
+    #footer .head .social_icon i {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    #footer .head {
+        padding: 115px 0px 45px 0;
+    }
+
+    #footer .footer_img img {
+        width: 100px;
+    }
+
+    #footer .footer_main .footer_account .content .date p,
+    #footer .footer_main .footer_account .content .time p {
+        font-size: 13px;
+    }
+
+    #footer .footer_main .footer_account .content h2 {
+        font-size: 23px;
+    }
+
+    #footer .footer_main .footer_account .content a {
+        font-size: 15px;
+    }
+
+    #footer .footer_main .footer_account .contact_us .contact_item a {
+        font-size: 13px;
+    }
+
+    #footer .footer_main .footer_account .contact_us h2 {
+        font-size: 23px;
+    }
+
+    #footer .footer_main .footer_account .news .input_section .input-group button,
+    #footer .footer_main .footer_account .news .input_section .input-group input::placeholder {
+        font-size: 12px;
+    }
+
+    #footer .footer_main .footer_account .news .input_section input,
+    #footer .footer_main .footer_account .news .input_section button {
+        padding: 14px;
+    }
+
+    #footer .head {
+        padding: 52px 0px 10px 0;
+    }
+
+    #footer .footer_img img {
+        width: 100px;
+        margin: 16px 0;
+    }
+
+    /*
+===========================================================  About Page Responsive ==============================================================
+ */
+    #about_feature .about_info .about_intro h3 {
+        font-size: 25px;
+    }
+
+    #about_feature .about_info .about_intro p {
+        font-size: 13px;
+    }
+
+    #about_feature .about_info ul li P {
+        font-size: 11px;
+    }
+
+    #about_feature .about_info ul li span i {
+        font-size: 16px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_info h4 {
+        font-size: 22px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_info p {
+        font-size: 14px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_img {
+        width: 73px;
+        height: 73px;
+        line-height: 73px;
+    }
+
+    #about_story {
+        overflow: scroll;
+    }
+
+    #about_feature .about_img .about_shop_img_2,
+    #about_feature .about_img::after {
+        visibility: hidden;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_info h4 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        color: var(--primary-1st-Color);
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_img {
+        width: 66px;
+        height: 66px;
+        line-height: 66px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_img img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #about_story .story_intro .story_info h3 {
+        font-size: 23px;
+        line-height: 39px;
+    }
+
+    #about_story .story_intro .story_info p {
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    #about_page_people_intro {
+        margin: -42px 0;
+    }
+
+    .about_page_people_intro_img1,
+    .about_page_people_intro_img2 {
+        transform: scale(.65);
+    }
+
+    #leadership h2 {
+        font-size: 25px;
+    }
+
+    .leadership_action_btn ul li {
+        transform: scale(.8);
+    }
+
+    #leadership .leadership_product .leadership_action_btn ul li {
+        margin-bottom: 0px;
+    }
+
+    #leadership .leadership_product .leadership_action_btn {
+        right: 10px;
+        top: 25px;
+    }
+
+    #about_promotion .about_promotion_img img {
+        width: 50px;
+    }
+
+    #about_promotion .about_promotion_item .about_promotion_info h5 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #about_promotion .about_promotion_item .about_promotion_info p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    #about_instagram h3 {
+        font-size: 33px;
+        line-height: 45px;
+    }
+
+    #about_instagram .about_instagram_img .overlay {
+        right: 34px;
+    }
+
+    #about_feature .about_info ul li P {
+        font-size: 9.5px;
+    }
+
+    #about_feature .about_info a {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    #about_page_icon .about_page_icon_offer .about_page_icon_offer_info h4 {
+        font-size: 24px;
+        line-height: 13px;
+    }
+
+    .promotion_content {
+        text-align: center;
+    }
+
+    #about_instagram h3 {
+        font-size: 21px;
+        line-height: 17px;
+    }
+
+    #about_instagram h3 {
+        margin-top: 244px;
+    }
+
+    #footer .footer_main .footer_account .content h2 {
+        font-size: 18px;
+    }
+
+    #footer .footer_main .footer_account .content a {
+        font-size: 11px;
+    }
+
+    #footer .footer_main .footer_account .contact_us h2 {
+        font-size: 18px;
+    }
+
+    #footer .footer_main .footer_account .news h2 {
+        font-size: 18px;
+    }
+
+    /* 
+==========================================================  Shop Page Responsive  ==============================================================    
+*/
+
+    #shop_page_product .shop_page_product .shop_page_product_info h6 {
+        font-size: 17px;
+    }
+
+    #sub_banner .container div h2 {
+        font-size: 36px;
+    }
+
+    #shop_page_product .shop_page_product .shop_page_product_info h6 {
+        font-size: 14px;
+    }
+
+    #shop_page_product .shop_page_product .floating_tag p {
+        font-size: 13px;
+        padding: 0px 12px;
+    }
+
+    #shop_page_product .shop_page_product .product_action_btn ul li a {
+        width: 27px;
+        height: 27px;
+        line-height: 27px;
+        font-size: 10px;
+    }
+
+    .product_det {
+        width: 100%;
+    }
+
+
+    /* 
+===========================================================  Wishlist Page Responsive ====================================================================
+*/
+    #wishlist tr td h6 {
+        font-size: 12px;
+    }
+
+    #wishlist .container table tr td a img {
+        width: 54px;
+        height: 54px;
+        margin: 21px 0px 0px 0;
+    }
+
+    #wishlist .container table tbody tr td .wishlist_product_title {
+        font-size: 9px;
+        line-height: 13px;
+        padding-top: 13px;
+    }
+
+    #wishlist .container table tr td p {
+        font-size: 10px;
+    }
+
+    #compare table tr td button,
+    #wishlist table tr td button {
+        padding: 10px 8px;
+        margin: 0px 0;
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+    #compare table tr td a,
+    #wishlist table tr td a {
+        padding: 12px 1px;
+    }
+        /* 
+=========================================================== Blog Page Responsive ====================================================================    
+*/
+#sub_banner .container div h2 {
+    font-size: 28px;
+}
+
+#sub_banner {
+    height: 350px;
+}
+
+#slidebar a {
+    font-size: 13px;
+}
+
+#slidebar .text h6 {
+    font-size: 12px;
+    padding-right: 40px;
+}
+
+#slidebar .text p {
+    font-size: 11px;
+}
+
+#slidebar .categories .p4 {
+    font-size: 12px;
+}
+
+#blog_video .blogs .blog_button {
+    font-size: 12px;
+}
+
+#slidebar .search {
+    font-size: 12px;
+    padding: 7px 26px;
+}
+
+#blog_video .blogs h6 {
+    font-size: 12px;
+}
+
+#blog_video .blogs h3 {
+    font-size: 16px;
+}
+
+#blog_video .blogs {
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px rgba(17, 22, 30, 0.08);
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+#slidebar h5 {
+    font-size: 16px;
+}
+
+#blog_video .blogs p {
+    font-size: 11px;
+    line-height: 23px;
+}
+
+#slidebar .categories .p4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#slidebar .post .posts .row {
+    display: block;
+}
+
+#slidebar .post .posts .row .text {
+    margin-bottom: 35px;
+    padding-top: 0px;
+}
+
+#blog_video .blogs button {
+    width: 73px;
+    height: 73px;
+    line-height: 73px;
+    font-size: 19px;
+}
+
+#slidebar a {
+    font-size: 9px;
+}
+
+@keyframes blog_pluse {
+    0% {
+        width: 120px;
+        height: 120px;
+        opacity: 0;
+    }
+
+    100% {
+        width: 70px;
+        height: 70px;
+        opacity: 1;
+    }
+}
+.social_icon_link{
+    justify-content: center;
+}
+
+}
